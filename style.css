@@ -91,3 +91,12 @@ figure img {
     border-radius: 5px;
     border:none;
 }
+/* Se da cuenta de que la barra principal es solo una y decide hacerlo todo otra vez*/
+
+/* Menu principal */
+
+header {
+    display:flex;
+    height: 80px;
+    flex-direction: row;
+}
