@@ -93,29 +93,42 @@
 <!-- Barra de busqueda central  -->
         <section id="center">
             <!-- Párrafo descriptivo -->
-          <div class="arriba part">
+          <div class="toppart">
             <p id="description">Las mejores fotos de stock gratis, imágenes libres de regalías y vídeos compartidos por creadores.</p>
           </div>
           <!-- Buscador central -->
-          <div class="abajo part">
+          <div class="bottompart">
             <form>
               <label for="search"></label>
               <input
                 type="search"
                 id="search"
                 name="search"
-                placeholder="Buscar fotos y Vídeos gratuitos"/>
+                placeholder="Buscar fotos y vídeos gratuitos"/>
               <a href="#"><input type="button" /><i class="icon-search">search</i></a>
             </form>
+          </div>
+          <!-- sugerencias -->
+          <div id="sugerencias">
+              <ul>
+                  <li>Sugerencias::</li>
+                  <li><a href="https://www.pexels.com/es-es/buscar/futurista/">futurista, </a></li>
+                  <li><a href="https://www.pexels.com/es-es/buscar/futuro/">futuro, </a></li>
+                  <li><a href="https://www.pexels.com/es-es/buscar/juegos%20de%20pc/">juegos de pc, </a></li>
+                  <li><a href="https://www.pexels.com/es-es/buscar/portada%20de%20facebook/">portada de facebook, </a></li>
+                  <li><a href="https://www.pexels.com/es-es/buscar/desayuno/">desayuno, </a></li>
+                  <li><a href="https://www.pexels.com/es-es/buscar/lago/">lago, </a></li>
+                  <li><a href="https://www.pexels.com/es-es/popular-searches/">más</a></li>
+              </ul>
           </div>
         </section>
 </header>
     <main>
 <!-- Menu del contenido  -->
-      <section>
-        <nav>
+      <section id="menubottom">
+        <nav id="menu-bottom">
             <ul>
-                <li><a href="https://www.pexels.com/es-es/">Inicio</a></li>
+                <li><a href="https://www.pexels.com/es-es/" id="under">Inicio</a></li>
                 <li><a href="https://www.pexels.com/es-es/discover/">Descubrir</a></li>
                 <li><a href="https://www.pexels.com/es-es/videos/">Vídeos</a></li>
                 <li><a href="https://www.pexels.com/es-es/leaderboard/">Lo más visitado</a></li>
@@ -124,12 +137,16 @@
         </nav>
       </section>
 <!-- Barra de inicio del contenido -->
-      <section class="fotos">
-            <h3>Fotos de stock gratis</h3>
+      <section id="stock">
+        <div id="stock-left">
+              <h3>Fotos de stock gratis</h3>
+        </div>
+        <div id="stock-right">
             <select>
-                <option>Tendencias</option>
-                <option><a href="https://www.pexels.com/es-es/new-photos/"></a>Lo nuevo</option>
-            </select>
+            <option class="suge-tend">Tendencias</option>
+            <option class="suge-tend"><a href="https://www.pexels.com/es-es/new-photos/"></a>Lo nuevo</option>
+        </select>
+        </div>
       </section>
     </main>
   </body>

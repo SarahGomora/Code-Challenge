@@ -65,3 +65,107 @@ figure img {
     visibility:visible;
 
 }
+
+/* Barra de busqueda central */
+#center {
+    display:flex;
+    display:block;
+    position:absolute;
+    top:22vh;
+    left: 25vw;
+    width: 700px;
+    height:100px;
+}
+.toppart {
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#search{
+    width:600px;
+    height: 60px;
+    border-radius: 7px;
+    border:none;
+    margin-bottom: 10px;
+}
+
+#search::placeholder {
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left:15px;
+}
+
+#sugerencias ul li{
+    list-style: none;
+    display:inline;
+    color: white;
+}
+#sugerencias ul li a{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    opacity: .8;
+}
+
+#sugerencias ul li a:hover {
+    color:white;
+    opacity: 1;
+
+}
+
+#menubottom {
+    width: 100%;
+    height: 70px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    border-bottom: 2px;
+    /* border-color: rgb(192, 190, 190); */
+}
+
+#menu-bottom ul li {
+    display:inline;
+    padding: 10px 8px;
+    margin:auto;
+}
+#menu-bottom ul li a {
+    color:rgb(63, 58, 58);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+#menu-bottom ul li a:hover {
+color: rgb(35, 123, 255);
+}
+/* Falta colocar la línea azul debajo de inicio */
+
+/* Barra de inicio del contenido */
+
+#stock{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+}
+#stock-left > h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+} 
+
+select {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    border: transparent;
+
+}
+.suge-tend {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+#stock-right select option:hover {
+    background-color:rgb(180, 176, 176);
+}
