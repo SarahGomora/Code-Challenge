@@ -1,1 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 
+/* imagen principal */
+figure img {
+    position: relative;
+}
+     
+ /* barra de menú principal */
+.mainmenu{
+    display:flex;
+}
+    
+.contenedor {
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(24, 31, 43);
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+#barra-principal{
+    width:100%;
+    margin: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+
+/* barra principal menu derecha */
+
+.nav {
+ height: 100%;
+}
+
+.nav > ul{
+    height: 100%;
+    display: flex;
+}
+.nav > ul > li {
+    height: 100%;
+    list-style: none;
+    position:relative;
+}
+.menu-right{
+    width:100%;
+    height:100%;
+    display: flex;
+}
+.nav ul li ul {
+    width: 120px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:12vh;
+    visibility: hidden;
+    z-index: 10;
+}
+.nav ul li ul:hover {
+    visibility:visible;
+
+}
