@@ -164,7 +164,7 @@ color: rgb(35, 123, 255);
 
 #stock{
     width:100%;
-    height:70px;
+    height:40px;
     display: flex;
     justify-content: space-between;
 }
@@ -194,3 +194,16 @@ select {
 }
 
 /* imagenes */
+
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left:  25px;
+    padding-right: 25px;
+    grid-gap:10px;
+    margin:0;
+}
+.gallery-img {
+    width: 100%;
+    flex-wrap: wrap;
+}
