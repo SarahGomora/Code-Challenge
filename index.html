@@ -9,10 +9,7 @@
       . Pexels
     </title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/67e35cc0c0.js" crossorigin="anonymous"></script>
   </head>
   <body>
 <header>
@@ -40,7 +37,8 @@
                         id="search-top"
                         name="search"
                         placeholder="Buscar fotos gratuitas"/>
-                        <a href="#"><input type="button" /><i class="icon-search">search</i></a>
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        
                 </form>
             </article>
 
@@ -64,7 +62,7 @@
                             <!-- Listado prinicipal II -->
                             <li class="menu-right"><a href="https://www.pexels.com/es-es/license/">Licencia</a></li>
                             <li class="menu-right"><a href="https://www.pexels.com/es-es/join-contributor/">Subir</a></li>
-                            <li class="menu-right"><a href=""><i class="material-icons">more_horiz</i></a>
+                            <li class="menu-right"><a href=""><i class="fa-solid fa-ellipsis"></i></a>
                             <!-- Submenú de meatball  -->
                                 <ul>
                                     <li class="submenu"><a href="https://www.pexels.com/es-es/login/">Iniciar sesión</a></li>
@@ -105,7 +103,7 @@
                 id="search"
                 name="search"
                 placeholder="Buscar fotos y vídeos gratuitos"/>
-              <a href="#"><input type="button" /><i class="icon-search">search</i></a>
+              <a href="#"><input type="button" /><i class="fa-solid fa-magnifying-glass search-icon"></i></a>
             </form>
           </div>
           <!-- sugerencias -->
@@ -156,26 +154,34 @@
 <!-- Imagenes -->
       <div>
           <div class="gallery">
-            <div class="gallery-item"><img src="gallery/pexels-a-koolshooter-5600005.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-adrien-olichon-2823459.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-ahmed-10768574.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-ahmed-9968575.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-avonne-stalling-3916455.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-cats-coming-920220.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-cottonbro-4904563.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-daria-shevtsova-1580625.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-dids-2911527.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-feyza-nur-demirci-7620279.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-heloisa-vecchio-6999527.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-jonaorle-9456701.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-joy-marino-3050273.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-kira-schwarz-8117885.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-mengliu-di-3321807.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-mitchell-luo-3685175.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-mitchell-luo-3694884.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-oliver-sjöström-1059040.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-oliver-sjöström-1122407.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-pixabay-458509.jpg" alt="" class="gallery-img"></div>
+            <div class="column">
+              <div class="gallery-item"><img src="gallery/pexels-a-koolshooter-5600005.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-adrien-olichon-2823459.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-ahmed-10768574.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-ahmed-9968575.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-avonne-stalling-3916455.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-cats-coming-920220.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-cottonbro-4904563.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-daria-shevtsova-1580625.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-dids-2911527.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-feyza-nur-demirci-7620279.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-yo-choowa-4594134.jpg" alt="" class="gallery-img"></div>
+            </div>
+            <div class="column">
+              <div class="gallery-item"><img src="gallery/pexels-heloisa-vecchio-6999527.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-jonaorle-9456701.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-joy-marino-3050273.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-kira-schwarz-8117885.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-mengliu-di-3321807.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-mitchell-luo-3685175.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-mitchell-luo-3694884.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-oliver-sjöström-1059040.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-oliver-sjöström-1122407.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-pixabay-458509.jpg" alt="" class="gallery-img"></div>
+              <div class="gallery-item"><img src="gallery/pexels-yaroslava-borz-11165470 (1).jpg" alt="" class="gallery-img"></div>
+           
+            </div>
+           <div class="column">
             <div class="gallery-item"><img src="gallery/pexels-pixabay-531321.jpg" alt="" class="gallery-img"></div>
             <div class="gallery-item"><img src="gallery/pexels-roghaye-arabpour-3584758.jpg" alt="" class="gallery-img"></div>
             <div class="gallery-item"><img src="gallery/pexels-rulo-davila-10145720.jpg" alt="" class="gallery-img"></div>
@@ -187,8 +193,9 @@
             <div class="gallery-item"><img src="gallery/pexels-tony-schnagl-5586268.jpg" alt="" class="gallery-img"></div>
             <div class="gallery-item"><img src="gallery/pexels-william-mattey-953457.jpg" alt="" class="gallery-img"></div>
             <div class="gallery-item"><img src="gallery/pexels-yaroslav-shuraev-9632404.jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-yaroslava-borz-11165470 (1).jpg" alt="" class="gallery-img"></div>
-            <div class="gallery-item"><img src="gallery/pexels-yo-choowa-4594134.jpg" alt="" class="gallery-img"></div>
+            
+           </div>
+            
           </div>
 
 
