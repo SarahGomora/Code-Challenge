@@ -41,6 +41,14 @@ figure img {
 }
 /*  */
 
+.menucenter{
+    display:flex;
+    position:absolute;
+    top:0;
+    left: 33vh;
+    padding-top: 10px;
+}
+
 #search-top {
     width: 600px;
     height: 50px;
@@ -61,7 +69,10 @@ figure img {
 }
 
 /* Botón únete */
+.part{ 
+    padding-top:8px;
 
+}
 .boton {
     width: 100px;
     height: 40px;
@@ -72,7 +83,6 @@ figure img {
     border: none;
     border-radius: 5px;
 }
-
 .boton:hover {
     background-color: rgb(74, 146, 125);
     opacity:0.8;
@@ -92,12 +102,19 @@ figure img {
     display: flex;
     align-items:flex-start;
     justify-content: space-between;
+    padding-top: 5px;
 }
 
 /* barra principal menu derecha */
+.mainmenu{
+    position:absolute;
+    top: 0;
+    right: 4vh;
+}
 .mainbar{
     display:flex;
     justify-content: space-between;
+    padding-top: 17px;
 }
 .nav a {
     color:white;
@@ -184,7 +201,7 @@ figure img {
     margin:auto;
     display:flex;
     justify-content: center;
-    border-bottom: 2px;
+    border-bottom: 6px;
     /* border-color: rgb(192, 190, 190); */
 }
 
@@ -202,7 +219,6 @@ figure img {
 #menu-bottom ul li a:hover {
 color: rgb(35, 123, 255);
 }
-
 /* Falta colocar la línea azul debajo de inicio */
 
 /* Barra de inicio del contenido */
