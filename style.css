@@ -45,8 +45,8 @@ figure img {
     display:flex;
     position:absolute;
     top:0;
-    left: 33vh;
-    padding-top: 10px;
+    left: 200px;
+    padding-top: 5px;
 }
 
 #search-top {
@@ -90,10 +90,9 @@ figure img {
 .contenedor {
     width: 100%;
     height: 10vh;
-    background-color:rgb(24, 31, 43);
-    position: absolute;
+    position: fixed;
     top: 0;
-    display: flex;
+    display: flex; 
 }
 
 #barra-principal{
@@ -109,12 +108,22 @@ figure img {
 .mainmenu{
     position:absolute;
     top: 0;
-    right: 4vh;
+    right: 16px;
 }
 .mainbar{
     display:flex;
     justify-content: space-between;
-    padding-top: 17px;
+    padding-top: 15px;
+}
+
+.hamburguer{
+    position:absolute;
+    top: 0;
+    right: 8px;
+    display: none;
+    color:white;
+    padding: 25px 8px;
+
 }
 .nav a {
     color:white;
@@ -198,17 +207,16 @@ figure img {
 #menubottom {
     width: 100%;
     height: 70px;
-    margin:auto;
     display:flex;
     justify-content: center;
     border-bottom: 6px;
-    /* border-color: rgb(192, 190, 190); */
+    border-color: rgb(192, 190, 190);
 }
 
 #menu-bottom ul li {
     display:inline;
-    padding: 10px 8px;
-    margin:auto;
+    padding: 30px 8px;
+    margin-top: 20px;
 }
 #menu-bottom ul li a {
     color:rgb(63, 58, 58);
@@ -271,4 +279,39 @@ select {
     width: 100%;
     padding-bottom: 15px;
     
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        display:block;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .righty {
+        display:none;
+    }
+
+    .mainbar{
+        display: none;
+    }
+    .menucenter{
+        display: none;
+    }
+    .part{
+        display:none;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+    #center{
+        width: 300px;
+        height: 100vh;
+        
+
+    }
 }
